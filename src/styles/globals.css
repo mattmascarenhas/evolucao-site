@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #222222;
+  color: #f1faf8;
+}
+a {
+  text-decoration: none;
+  color: #e7f6f2;
+}
+button {
+  cursor: default;
+}
+span {
+  color: #395b64;
+}
+
+.bodyWithBackground {
+  background-image: url("/fundo_4.jpg"); /* Ajuste o caminho para a sua imagem */
+  background-repeat: no-repeat;
+  background-size: auto; /* Exibir a imagem no tamanho original */
+  background-color: #282828; /* A cor de fundo que aparecerá ao rolar */
+}
+
+/* Adicione este estilo para garantir que o fundo cubra toda a altura da página */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Estilo opcional para o conteúdo na parte superior da imagem */
+.content {
+  padding: 20px;
+  color: #000000; /* Cor do texto na parte superior da imagem */
+}
